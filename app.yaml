@@ -5,7 +5,10 @@ api_version: 1
 
 handlers:
 - url: /
-  script: CodeIgniter_2.1.3/index.php
+  script: CodeIgniter_2.1.4/index.php
 
 - url: /(.+)
-  script: CodeIgniter_2.1.3/index.php
+  script: CodeIgniter_2.1.4/index.php
+
+- url: CodeIgniter_2.1.4/user_guide
+  static_dir: user_guide
