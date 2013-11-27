@@ -23,8 +23,7 @@ else {
 $_SERVER['SCRIPT_NAME'] = '/' . $file;
 
 // Redirect to controller only if controller is set in URL
-if(isset($_GET['q']) && $_GET['q' != "//"]) {
-echo $_GET['q'];
+if(isset($_GET['q']) && $_GET['q'] != "//") {
 	header("Location /index.php/" . $_GET['q']);
 }
 
