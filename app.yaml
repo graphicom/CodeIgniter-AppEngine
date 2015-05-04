@@ -8,13 +8,13 @@ handlers:
 - url: /user_guide
   static_dir: CodeIgniter_2.1.4/user_guide
 
-- url: /assets/js
+- url: /assets/js/*
   static_dir: CodeIgniter_2.1.4/assets/js
 
-- url: /assets/css
+- url: /assets/css/*
   static_dir: CodeIgniter_2.1.4/assets/css
 
-- url: /assets/images
+- url: /assets/images/*
   static_dir: CodeIgniter_2.1.4/assets/images
 
 - url: /
